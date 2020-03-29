@@ -1,0 +1,91 @@
+﻿Build started 25.10.2017 18:12:50.
+     1>Project "C:\Users\VAIO\Desktop\DirectX11 Tank Oyunu 7 Haziran2\DirectX11 Tank Oyunu\DirectX11 Tank Oyunu.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         E:\Visual Studio 2013 Professional\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D "WIN32" /D _DEBUG /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DX11_Tank_Oyunu_Fin.cpp
+         DX11_Tank_Oyunu_Fin.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50002) : see previous definition of 'DXGI_STATUS_OCCLUDED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50011) : see previous definition of 'DXGI_STATUS_CLIPPED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50020) : see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50029) : see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50038) : see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50047) : see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50056) : see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50071) : see previous definition of 'DXGI_ERROR_INVALID_CALL'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50080) : see previous definition of 'DXGI_ERROR_NOT_FOUND'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50089) : see previous definition of 'DXGI_ERROR_MORE_DATA'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50098) : see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50107) : see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50116) : see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50126) : see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50135) : see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50145) : see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50154) : see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50164) : see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50173) : see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50182) : see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50192) : see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50201) : see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50379) : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50388) : see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50398) : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50407) : see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50355) : see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50364) : see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(558): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(576): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(598): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(692): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(933): warning C4244: '=' : conversion from 'float' to '__int64', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1377): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1458): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1558): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1562): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1563): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1564): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1583): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1718): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1741): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1747): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1751): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1752): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\vaio\desktop\directx11 tank oyunu 7 haziran2\directx11 tank oyunu\dx11_tank_oyunu_fin.cpp(1753): warning C4244: '+=' : conversion from 'double' to 'FLOAT', possible loss of data
+       Link:
+         E:\Visual Studio 2013 Professional\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\DirectX11 Tank Oyunu.exe" /INCREMENTAL /NOLOGO dinput8.lib d3d11.lib d3dcompiler.lib d3dx11d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\DirectX11 Tank Oyunu.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\DirectX11 Tank Oyunu.lib" /MACHINE:X86 Debug\Tutorial07.res
+         Debug\DX11_Tank_Oyunu_Fin.obj
+         DirectX11 Tank Oyunu.vcxproj -> C:\Users\VAIO\Desktop\DirectX11 Tank Oyunu 7 Haziran2\DirectX11 Tank Oyunu\Debug\DirectX11 Tank Oyunu.exe
+     1>Done Building Project "C:\Users\VAIO\Desktop\DirectX11 Tank Oyunu 7 Haziran2\DirectX11 Tank Oyunu\DirectX11 Tank Oyunu.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.12
