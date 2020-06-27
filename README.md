@@ -1,2 +1,2 @@
-# DirectX11-Tank-Oyunu
-DirectX11 Tank Oyunu
+# DirectX11-Tank-Game
+DirectX11 Tank Game
